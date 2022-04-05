@@ -10,6 +10,7 @@ function NavbarBeforeLogin(){
                     <h1>GCONN</h1>
                     <h3>LEADING GAMES ACCOUNT MARKETPLACE</h3>
                 </span>
+                
             </span>
         </div>
     );
