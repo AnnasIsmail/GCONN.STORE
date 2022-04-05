@@ -1,3 +1,30 @@
 .logo-gconn-before-navbar{
-    width: 250px;
+    padding-top: 30px;
+    color: white;
+    display: flex;
+    gap: 5px;
+    width: 90%;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.logo-gconn-before-navbar img{
+    width: 60px;
+}
+
+.logo-gconn-before-navbar h1{
+    font-weight: 700 ;
+    font-size: 40px;
+    padding-bottom: -10px;
+}
+
+.logo-gconn-before-navbar h3{
+    margin-top: -10px;
+    font-size: 8px;
+}
+
+.logo-gconn-before-navbar span{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
