@@ -6,15 +6,18 @@
 
 .icon-home:hover{
     animation: home-animation 2s;
-    fill: white;
+    /* fill: white; */
+    stroke-width: 20;
     cursor: pointer;
 }
 
 @keyframes home-animation {
     from{
-        fill: transparent;
+    stroke-width: 10;
+    /* fill: transparent; */
     }
     to{
-        fill: white;
+    stroke-width: 20;
+    /* fill: white; */
     }
 }
