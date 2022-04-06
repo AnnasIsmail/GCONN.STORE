@@ -29,3 +29,28 @@
     text-align: center;
 }
 
+.navbar div{
+    color: white;
+    display: grid;
+    grid-template-columns: 13% 50%;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    column-gap: 3%;
+
+}
+
+.navbar div:hover{
+    cursor: pointer;
+    animation: div-hover 1s ;
+    font-weight: 600;
+}
+
+@keyframes div-hover {
+    from{
+        font-weight: normal;
+    }
+    to{
+        font-weight: 600;
+    }
+}
