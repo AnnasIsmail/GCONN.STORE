@@ -1,0 +1,11 @@
+.icon{
+    stroke: white;
+    stroke-width: 32;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin:round
+}
+
+.icon-fill{
+    fill: white;
+}
